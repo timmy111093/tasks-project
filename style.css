@@ -1,0 +1,73 @@
+body{
+   background: url(/images/bg-cup.webp);
+   background-size: cover;
+}
+h1{
+   font-weight: bolder;
+   font-family: cursive;
+   font-size: 50px;
+   text-align: center;
+   padding: 10px;
+   color:darkblue;
+}
+#formContainer{
+      padding: 20px;
+      border-radius: 10px;
+      background: url(/images/grey-bg.jpeg);
+      color:darkblue;
+}
+label{
+      font-family: cursive;
+      font-weight: bold;
+      font-size: 24px; 
+}
+input{
+      background-color: whitesmoke;
+      border-radius: 3px;
+      margin: 5px;
+}
+span{
+      font-family: cursive;
+}
+.card{
+      height: 300px; 
+      width: 23.5%;
+      margin: auto 5px;
+      margin-top: 20px;
+      transition: width 400ms;
+}
+.card:hover{
+      width: 24%;
+}
+.fadeIn{
+      animation: fade-in 300ms;
+}
+@keyframes fade-in {
+      from{
+            opacity: 0.5;
+      }
+      to{
+            opacity: 1;
+      }
+}
+.card-body{
+      height: 200px;
+      overflow-y: scroll;
+      color: darkblue;
+}
+.btn{
+      margin-top: 20px;
+}
+.btn-danger{
+      display: none;
+      margin: 0;
+      float: right;
+}
+.fadeIn:hover .btn-danger{
+      display: block;
+}
+
+
+
+
+
